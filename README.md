@@ -56,7 +56,17 @@ The next step after scraping data was to clean the data so that we can use it fo
 ## Exploratory Data Analysis *(EDA)*
 Examined the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables.
 
+![alt text](https://github.com/Aakanksha3010/ds_salary_project/blob/main/Heatmap.png "Seaborn correlation Heatmap")
 
+![alt text](https://github.com/Aakanksha3010/ds_salary_project/blob/main/Heatmap-2.png "Seaborn correlation Heatmap_2")
+
+![alt text](https://github.com/Aakanksha3010/ds_salary_project/blob/main/Location.png "Job opportunities by Location")
+
+![alt text](https://github.com/Aakanksha3010/ds_salary_project/blob/main/Sector.png "Job opportunities by Sector")
+
+![alt text](https://github.com/Aakanksha3010/ds_salary_project/blob/main/pivot.png "Salary by position")
+
+![alt text](https://github.com/Aakanksha3010/ds_salary_project/blob/main/word-cloud.png "graphical representation of the frequency of keywords searched")
 ## Model Building
 In this section, first step was to transform the categorical variables inot dummy variables.Also, split the data into train & tests sets with a test_size = 0.2.
 
