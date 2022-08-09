@@ -73,7 +73,7 @@ In this section, first step was to transform the categorical variables inot dumm
 Tried 4 different models and evaluated them using Mean Absolute Error. I chose MAE because it is relatively easy to interpret and outliers aren’t particularly bad in for this type of model.
 
 Four different models which I tried:
-* *Multiple Linear Regressio* – Baseline for the model
+* *Multiple Linear Regression* – Baseline for the model
 * *Lasso Regression* – Because of the sparse data from the many categorical variables, I thought a normalized regression like lasso would be effective.
 * *Ridge Regression* - Because linear regression wasn't providing expected results so had to regularize the data by shrinking the input coefficients and minimising the cost function using ```L2 regularization```
 * *Random Forest Regressor* – Again, with the sparsity associated with the data, I thought that this would be a good fit
